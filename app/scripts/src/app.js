@@ -44,7 +44,7 @@ class ChatApp {
 class ChatMessage {
   constructor({
     message: m,
-    user: u = username,
+    user: username,
     timestamp: t = (new Date()).getTime()
   }) {
     this.message = m;

@@ -28,4 +28,4 @@ export default {
   registerOpenHandler,
   registerMessageHandler,
   sendMessage
-}
+};
